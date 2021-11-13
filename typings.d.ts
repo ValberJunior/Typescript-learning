@@ -14,10 +14,8 @@ interface Estudante {
 
 //exemplo de importação
 
-import $ from 'jquery';
+interface JQuery {
+    novaFuncao() : void;
+}
 
-$.fn.extend({
-    novaFuncao() {
-        console.log('Chamou');
-    }
-});
+// Chamar bibliotecas >> @types/biblioteca
